@@ -27,7 +27,7 @@ function createSortingTemplate() {
   `);
 }
 
-export default class Sorting {
+export default class SortingView {
   getTemplate = () => createSortingTemplate();
 
   getElement = () => {

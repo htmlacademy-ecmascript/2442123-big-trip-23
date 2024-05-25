@@ -7,7 +7,7 @@ function createEventsTemplate() {
   `);
 }
 
-export default class Events {
+export default class EventsView {
   getTemplate = () => createEventsTemplate();
 
   getElement = () => {

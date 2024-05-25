@@ -141,7 +141,7 @@ function EditTemplate() {
   `);
 }
 
-export default class Edit {
+export default class EditView {
   getTemplate() {
     return EditTemplate();
   }
